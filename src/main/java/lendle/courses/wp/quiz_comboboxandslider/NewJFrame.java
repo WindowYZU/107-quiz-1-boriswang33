@@ -122,7 +122,7 @@ public class NewJFrame extends javax.swing.JFrame {
     private void jComboBox1ItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_jComboBox1ItemStateChanged
         // TODO add your handling code here:
         
-         jSlider1.setValue(jComboBox1.getSelectedIndex());
+         jSlider1.setValue(jComboBox1.getSelectedIndex()*10);
     }//GEN-LAST:event_jComboBox1ItemStateChanged
 
     /**
